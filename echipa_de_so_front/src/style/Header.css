@@ -1,0 +1,176 @@
+.containerHeader{
+    left:0;
+    background-color: #282928;
+    top: 0;
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+}
+
+.logo{
+    width: 15vh;
+    height: 5vh;
+    background-image: url("../logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.containerLogo{
+    height: 7vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ceva{
+    width: 10vh;
+    height: 5vh;
+    color: #D8a016;
+    font-size: 2vh;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: #282928;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-family: fff;
+}
+
+.Ceva:hover{
+    cursor: pointer;
+}
+
+.cartImg{
+    width: 3vh;
+    height: 5vh;
+    color: #D8a016;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    background-image: url("../icon-2s-45px\ \(1\).svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Cart{
+    width: 5vh;
+    height: 5vh;
+    color: #D8a016;
+    font-size: 2vh;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: #282928;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-family: fff;
+}
+
+.Cart:hover{
+    cursor: pointer;
+}
+
+.Contact{
+    width: 10vh;
+    height: 5vh;
+    color: #D8a016;
+    font-size: 2vh;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: #282928;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    font-family: fff;
+}
+
+.Contact:hover{
+    cursor: pointer;
+}
+
+.meniu{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    height: 7vh;
+    width: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.shopping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'fff'; 
+     font-weight: 400;  font-style: normal;
+     font-display: swap; /* Read next point /
+     unicode-range: U+000-5FF; / Download only latin glyphs */ 
+      src: local('Custom Font'),
+      url('./font.woff') 
+      format('woff');
+}
+
+/*@media screen and (max-width: 600px) {
+    .containerHeader{
+        height: 10vh;
+    }
+    .containerLogo{
+        height: 10vh;
+        width: 30vh;
+    }
+    .logo{
+        width: 20vh;
+        height: 10vh;
+    }
+    .meniu{
+        height: 10vh;
+        width: 50vh;
+    }
+    .Ceva{
+        font-size: 1vw;
+    }
+    .Cart{
+        font-size: 1vw;
+    }
+    .Contact{
+        font-size: 1vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .containerHeader{
+        height: 10vh;
+    }
+    .containerLogo{
+        height: 10vh;
+        width: 20vh;
+    }
+    .logo{
+        width: 20vh;
+        height: 7vh;
+    }
+    .meniu{
+        height: 10vh;
+        width: 20vh;
+    }
+    .Ceva{
+        font-size : 4vw;
+    }
+    .Cart{
+        font-size : 4vw;
+    }
+    .Contact{
+        font-size : 4vw;
+    }
+}*/

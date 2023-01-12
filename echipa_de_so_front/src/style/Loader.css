@@ -1,0 +1,18 @@
+.containerLoader{
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top : 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #f7de9f  ;
+}
+
+.spin{
+    width : 200px;
+    height : 200px;
+    background-image: url("../sevege animat.svg");   
+}

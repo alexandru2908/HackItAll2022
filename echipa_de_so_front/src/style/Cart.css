@@ -1,0 +1,108 @@
+.containerCart{
+    height: 98vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.interiorPagina{
+    
+    height: 70vh;
+    width: 50vw;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+.interiorPagina::-webkit-scrollbar {
+    display: none;
+  }
+.grup{
+    display:flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    margin-top: 5vh;
+}
+.paginaCart{
+    height: 80vh;
+    width: 50vw;
+    background-color: white;
+    
+
+}
+.headerCart{
+    font-family: fff;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d8a016;
+    
+    display: flex;
+    font-size: 4vh;
+    margin-right: 0;
+}
+.imagineProdus{
+    height: 25vh;
+    width: 25vh;
+    /* background-color: #d8a016; */
+    /* background-image: url("../logo.png"); */
+    
+
+}
+
+.descriereProdus{
+    height: 25vh;
+    width: 25vw;
+    /* background-color: #d8a016; */
+    
+    /*margin-top: -5vw;*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    
+    font-family: fff;
+    
+
+}
+
+.counterDown{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d8a016;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fff'; 
+     font-weight: 400;  font-style: normal;
+     font-display: swap; /* Read next point /
+     unicode-range: U+000-5FF; / Download only latin glyphs */ 
+      src: local('Custom Font'),
+      url('./font.woff') 
+      format('woff');
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .interiorPagina{
+        width:80vw;
+      
+    }
+    .paginaCart{
+        width: 20vw;
+        height: 4vh;
+        
+    }
+    
+}

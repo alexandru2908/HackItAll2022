@@ -1,0 +1,18 @@
+.containerLoaderMic{
+    width: 80vw;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    z-index: 1;
+    background-color: #f7de9f  ;
+    display: none;
+}
+
+.spinMic{
+    width : 200px;
+    height : 200px;
+    background-image: url("../sevege animat.svg");   
+}
